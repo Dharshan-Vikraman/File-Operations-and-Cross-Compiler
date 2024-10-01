@@ -1,0 +1,7 @@
+config BR2_PACKAGE_FILEIOAPP
+    bool "fileioapp"
+    help
+      A simple file I/O application that reads from input.txt
+      and writes to output.txt.
+
+source "package/fileioapp/Config.in"
